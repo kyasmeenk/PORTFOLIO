@@ -1,19 +1,14 @@
 {
-  "name": "my-portfolio-express",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "My portfolio page in express",
-  "main": "app.js",
-  "scripts": { 
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+  "description": "A simple portfolio for a computer engineering student",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
   },
-  "keywords": [
-    "portfolio",
-    "express"
-  ],
-  "author": "Shiburaj Pappu",
-  "license": "MIT",
+  "author": "kyasmeenk",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.17.1"
   }
 }
